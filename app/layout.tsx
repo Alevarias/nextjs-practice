@@ -32,7 +32,7 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col">
         <Header />
-        <main className="grow flex flex-col items-center justify-between bg-zinc-50 dark:bg-black">
+        <main className="grow flex flex-col bg-zinc-50 dark:bg-black">
           {children}
         </main>
         <Footer />

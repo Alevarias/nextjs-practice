@@ -9,9 +9,11 @@ export default function Header() { /** Remember to use PascalCase for functions.
               Home
             </Link>
             <span className="mx-2">|</span>
-            <Link href="/posts" className="hover:text-zinc-50" >
-              Posts
+            <Link href="/projects" className="hover:text-zinc-50" >
+              Web Projects
             </Link>
+            <span className="mx-2">|</span>
+            <Link href="/donations" className="hover:text-zinc-50">Donations</Link>
           </nav>
     </header>
   );
