@@ -18,7 +18,7 @@ export default function ProjectCard({title = "", slug = "", description = "", co
                     style={{ clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 15% 100%)" }}>
                     {completion ? "Finished" : "In Progress"}
                 </div>
-                {title}: <span>{completion ? "Finished" : "In Progress"}</span>
+                {title}
                 <p className="text-gray-700 text-base">{description}</p>
             </div>
         </Link>
