@@ -7,13 +7,6 @@ export default async function GradeJumperPage() {
             <p className="text-lg text-gray-700 dark:text-gray-300 mx-10">
                 A simple game to test your skills.
             </p>
-            
-
-
-
-
-
-
         </div>
     )
 }
